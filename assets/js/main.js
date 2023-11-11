@@ -36,9 +36,26 @@ window.addEventListener("scroll", scrollHeader);
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 /*=============== SHOW SCROLL UP ===============*/
+  const scrollUp = ()=>{
+    const scroll = document.getElementById('scroll-up');
 
+    this.scrollY >= 350 ? scroll.classList.add('scroll-show') : scroll.classList.remove('scroll-show');
+  }
+
+  window.addEventListener('scroll' , scrollUp)
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+  const sr = ScrollReveal({
+    origin : 'top',
+    distance : '60px',
+    duration : 2500,
+    delay : 400,
+  })
 
+  sr.reveal(`.home__data , footer__container , .footer__group`)
+  sr.reveal(`.home__img`, {delay: 700 , origin: 'bottom'})
+  sr.reveal(`.program__card , .pricing__card`, {interval:100})
+  sr.reveal(`.choose__img , .calculate__content`, {origin: 'left'})
+  sr.reveal(`.choose__content , calculate__img`, {origin: 'right'})
 /*=============== CALCULATE JS ===============*/
 
 const calculateForm = document.getElementById('calculate-form'),

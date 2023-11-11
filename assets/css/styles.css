@@ -288,7 +288,20 @@ img {
 }
 
 /* Active link */
+::-webkit-scrollbar{
+  width: .5rem;
+  border-radius: .6rem;
+  background-color: hsl(79, 4%, 15%);
+}
 
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: hsl(79, 4%, 25%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(79, 4%, 35%);
+}
 
 /*=============== HOME ===============*/
 
@@ -732,7 +745,7 @@ padding-top: 4rem;
   align-items: center;
   font-weight: var(--font-bold);
   column-gap: .5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -746,20 +759,6 @@ padding-top: 4rem;
 .footer__description{
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.footer__form{
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-
-.footer__input{
-  padding: 20px 56px 20px 24px;
-  border: 2px solid var(--first-color-light);
-  background: transparent;
-  outline: none;
-  color: var(--text-color);
 }
 
 .footer__content,
@@ -829,10 +828,27 @@ padding-top: 4rem;
 
 
 /*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  background-color: var(--first-color);
+  bottom: -30%;
+  display: inline-flex;
+  padding: .35rem;
+  color: var(--title-color-black);
+  font-size: 1.25rem;
+  z-index: var(--z-tooltip);
+  transition: .3s;
+}
 
+.scrollup:hover{
+  transform: translateY(-.25rem);
+}
 
 /* Show Scroll Up*/
-
+.scroll-show{
+  bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */

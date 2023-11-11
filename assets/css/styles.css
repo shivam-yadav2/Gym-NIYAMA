@@ -852,9 +852,46 @@ padding-top: 4rem;
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media  screen and (max-width: 340px) {
+  .conatiner{
+    margin: 0 1rem;
+  }
 
+  .section__titles{
+    flex-direction: column;
+    row-gap: .25rem;
+  }
+
+  .home__triangle ,
+  .choose__triangle{
+    height: 300px;
+  }
+
+  .choose__triangle-1{
+    width: 260px;
+  }
+
+  .home__img{
+    width: 244px;
+  }
+
+  .pricing__container{
+    grid-template-columns: 250px;
+  }
+  .pricing__card{
+    padding: 1.5rem;
+  }
+
+  .footer__content{
+    grid-template-columns: 1fr;
+  }
+}
 
 /* For medium devices */
-
+@media screen and (min-width: 768px){
+  .nav__menu{
+    width: 50%;
+  }
+}
 
 /* For large devices */

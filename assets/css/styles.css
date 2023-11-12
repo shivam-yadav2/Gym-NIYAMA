@@ -108,7 +108,7 @@ img {
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .section__data {
@@ -824,6 +824,10 @@ padding-top: 4rem;
   transform: translateY(1rem);
 }
 
+.social__icon{
+  margin-top: -90px;
+}
+
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 2rem;
@@ -910,12 +914,9 @@ padding-top: 4rem;
 .contact__img{
   border-radius: 50%;
   transition: all 0.4s;
-}
-
-.contact__img:hover{
-  
   box-shadow: 0px 4px 10px var(--first-color);
 }
+
 
 .contact__image h3{
   font-family: var(--second-font);
@@ -995,7 +996,7 @@ padding-top: 4rem;
   }
 
   .pricing__container{
-    grid-template-columns: 250px;
+    grid-template-columns: 230px;
   }
   .pricing__card{
     padding: 1.5rem;
@@ -1003,6 +1004,27 @@ padding-top: 4rem;
 
   .footer__content{
     grid-template-columns: 1fr;
+  }
+
+  .contact__container{
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .contact__content{
+    grid-template-columns: 250px;
+  }
+  .trainer_head{
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact__card{
+    padding: 1rem 1.5rem;
+  }
+
+  .contact__map iframe{
+    width: 250px;
   }
 }
 

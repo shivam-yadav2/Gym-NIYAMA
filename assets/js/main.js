@@ -53,9 +53,9 @@ window.addEventListener("scroll", scrollHeader);
 
   sr.reveal(`.home__data , .footer__container , .footer__group`)
   sr.reveal(`.home__img`, {delay: 700 , origin: 'bottom'})
-  sr.reveal(`.program__card , .pricing__card`, {interval:100})
-  sr.reveal(`.choose__img , .calculate__content`, {origin: 'left'})
-  sr.reveal(`.choose__content , .calculate__img`, {origin: 'right'})
+  sr.reveal(`.program__card , .pricing__card , .contact__card , .map`, {interval:100})
+  sr.reveal(`.choose__img , .calculate__content , .big__bro`, {origin: 'left'})
+  sr.reveal(`.choose__content , .calculate__img , .small__bro`, {origin: 'right'})
 /*=============== CALCULATE JS ===============*/
 
 const calculateForm = document.getElementById('calculate-form'),

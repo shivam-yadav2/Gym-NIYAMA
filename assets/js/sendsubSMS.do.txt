@@ -1,0 +1,86 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link href="slot4bootstrap/dist/css/bootstrap.min.css" type="text/css"
+	rel="stylesheet" />
+<link href="css/layout.css" type="text/css" rel="stylesheet" />
+<link href="css/sow4.css" type="text/css" rel="stylesheet" />
+<title>Error 503</title>
+<style>
+.footer{width: 100%;float: left;background: #019ddd;border-top:1px solid #1BB7F7;padding: 10px 0; }
+#gears {
+  text-align: center;
+  color: #333;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.85);
+  opacity: 0.85;
+  padding: 30px 0px;
+  margin-top: 5%;
+}
+</style>
+</head>
+<body onload="noBack();" onpageshow="if (event.persisted) noBack();"
+              onunload="" oncontextmenu="return false" onselectstart="return false">
+   <div class="width100p padding0px">
+					<div class="panel panel-primary">
+						<div class="panel-heading" style="text-align: left">
+							<h3 class="panel-title">
+								<b>Error Message</b>
+							</h3>
+						</div>
+						<div class="panel-body">
+							<div class="col-md-12">
+								<div class="row">
+									<div class="col-md-12 text-center">
+										
+										<h1 class="red"><b>SSL1001</b></h1>
+        								<h4>Slot booking is allowed from <a href="https://sarathi.parivahan.gov.in/sarathiservice" style="text-decoration: none!important;"><span>Sarathi portal </span></a>only</h4>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>           
+  <div class="footer" style="margin-top: 5%;">           
+  		<div class="width100p mb_textcenter">
+		<div class="col-md-3 col-sm-3 col-xs-3">
+			<div class="nic_logo">
+				<img src="images/footer/logo.png" alt="NIC" style="cursor: pointer"
+					onclick="javascript:w=window.open('http://www.nic.in','mywin');">
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-3 padding0px col-xs-6" style="text-align: center;font-size: 12px;padding-top: 10px;">
+			<a href="http://www.nic.in" target="_blank"
+				style="text-decoration: none; cursor: pointer;color: #fff;">Designed,
+				developed and hosted by <b style="color: #0072ff;">S22</b><br> National Informatics Centre
+			</a>
+		</div>
+		<div class="col-md-3 col-sm-3 text-right col-xs-3">
+			
+			<div style="color: #fff;">
+				<b>IP:</b>
+
+			</div>
+			<div class="gov_logo">
+				<img src="images/footer/digital_logo_main.png" alt="Gov" border="0"
+					style="cursor: pointer"
+					onclick="javascript:w=window.open('http://www.india.gov.in','mywin');">
+				<br /> <font style="color: gray"><!-- <script
+						type="text/javascript" src="js/counter.js"></script> --></font>
+			</div>
+		</div>
+	</div>
+  </div>
+</body>
+<script>
+function noBack(){ 
+	window.history.forward(1);
+}
+</script>
+</html>

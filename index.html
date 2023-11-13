@@ -1,392 +1,470 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-        <!--=============== REMIXICON ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<html lang="en">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <title>NIYAMA - The GYM</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                    <a href="index.html" class="nav__logo">
-                        <img src="assets/img/logo.png" alt="logo"><span>NIYAMA</span>
-                    </a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#program" class="nav__link">Program</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#choose" class="nav__link">Choose Us</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#pricing" class="nav__link">Pricing</a>
-                        </li>
-                        <div class="nav__link">
-                            <a href="#footer" class="button nav__button">Register Now</a>
-                        </div>
-                    </ul>
-                    <div class="nav__close" id="nav-close">
-                        <i class="fa-solid fa-xmark"></i>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>NIYAMA - The GYM</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo.png" alt="logo"><span>NIYAMA</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">Choose Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                    <div class="nav__link">
+                        <a href="#contact" class="button nav__button">Call Now</a>
                     </div>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
                 </div>
-                <!-- toggle button  -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- toggle button  -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">MAKE YOUR</h2>
+                    <h1 class="home__title">BODY SHAPE</h1>
+                    <p class="home__description">
+                        In here we will help you to shape and build your ideal body and live your life to the fullest.
+                    </p>
+                    <a href="#pricing" class="button button__flex">Get Started<i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-            </nav>
-        </header>
-
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <h2 class="home__subtitle">MAKE YOUR</h2>
-                        <h1 class="home__title">BODY SHAPE</h1>
-                        <p class="home__description">
-                            In here we will help you to shape and build your ideal body and live your life to the fullest.
-                        </p>
-                        <a href="#" class="button button__flex">Get Started<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    <div class="home__images">
-                        <img src="assets/img/choose-img.png" alt="home image" class="home__img">
-                        <div class="home__triangle home__triangle-1"></div>
-                        <div class="home__triangle home__triangle-2"></div>
-                        <div class="home__triangle home__triangle-3"></div>
-                    </div>
+                <div class="home__images">
+                    <img src="assets/img/choose-img.png" alt="home image" class="home__img">
+                    <div class="home__triangle home__triangle-1"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-3"></div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== LOGOS ====================-->
-            <section class="logos section">
-                
-            </section>
 
-            <!--==================== PROGRAM ====================-->
-            <section class="program section" id="program">
-                <div class="container">
-                    <div class="section__data">
-                        <h2 class="section__subtitle">Our Program</h2>
-                        <div class="section__titles">
-                            <h1 class="section__title-border">BUILD YOUR</h1>
-                            <h1 class="section__title">BEST BODY</h1>
-                        </div>
-                    </div>
-                    <div class="program__container grid">
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program1.png" class="program__img" alt="program img">
-                            </div>
-                            <h3 class="program__title">Flex Muscle</h3>
-                            <p class="program__description">Creating tension that's temporarily making the muscle 
-                                fibers smaller or contracted.</p>
-                            <a href="#" class="program__button">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program2.png" class="program__img" alt="program img">
-                            </div>
-                            <h3 class="program__title">Cardio Exercise</h3>
-                            <p class="program__description">Exercise your heart rate up and keeps it 
-                                up for a prolonged period of time.</p>
-                            <a href="#" class="program__button">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program3.png" class="program__img" alt="program img">
-                            </div>
-                            <h3 class="program__title">Basic Yoga</h3>
-                            <p class="program__description">Diaphragmatic this is the most common breathing 
-                                technique you'll find in yoga.</p>
-                            <a href="#" class="program__button">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program4.png" class="program__img" alt="program img">
-                            </div>
-                            <h3 class="program__title">Weight Lifting</h3>
-                            <p class="program__description">Attempts a maximum weight single lift of a 
-                                barbell loaded with weight plates.</p>
-                            <a href="#" class="program__button">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </a>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CHOOSE US ====================-->
-            <section class="choose section" id="choose">
-                <div class="choose__overflow">
-                    <div class="choose__container container grid">
-                        <div class="choose__content">
-                            <div class="section__data">
-                                <h2 class="section__subtitle">Best Reason</h2>
-                                <div class="section__titles">
-                                    <h1 class="section__title-border">
-                                        WHY
-                                    </h1>
-                                    <h1 class="section__title">CHOOSE US ?</h1>
-                                </div>
-                            </div>
-                            
-                            <p class="choose__description">
-                                Choose your favorite class and start now. Remember the 
-    only bad workout is the one you didn't do.
-                            </p>
-                            <div class="choose__data">
-                                <div class="choose__group">
-                                    <h3 class="choose__number">200+</h3>
-                                    <p class="choose__subtitle">Total Members</p>
-                                </div>
-                                <div class="choose__group">
-                                    <h3 class="choose__number">5+</h3>
-                                    <p class="choose__subtitle">Best trainers</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="choose__images">
-                            <img src="assets/img/home-img.png" alt="choose__img" class="choose__img">
-
-                            <div class="choose__triangle choose__triangle-1"></div>
-                            <div class="choose__triangle choose__triangle-2"></div>
-                            <div class="choose__triangle choose__triangle-3"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PRICING ====================-->
-            <section class="pricing section" id="pricing">
-                <div class="container">
-                    <div class="section__data">
-                        <h2 class="section__subtitle">Pricing</h2>
-                        <div class="section__titles">
-                            <h1 class="section__title-border">OUR</h1>
-                            <h1 class="section__title">SPECIAL PLAN</h1>
-                        </div>
-                    </div>
-                    <div class="pricing__container grid">
-                        <article class="pricing__card">
-                            <header class="pricing__header">
-                                <div class="pricing__shape">
-                                    <img src="assets/img/pricing1.png" alt="pricing image" class="pricing__img">
-                                </div>
-                                <h1 class="pricing__title">BASIC PACKAGE</h1>
-                                <h2 class="pricing__number">$120</h2>
-                            </header>
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>1 Monthly Membership
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>6 Days In A Week
-                                </li>
-                                <li class="pricing__item ">
-                                    <i class="fa-regular fa-circle-check"></i>Strength Training
-                                </li>
-                                <li class="pricing__item pricing__item-opacity">
-                                    <i class="fa-regular fa-circle-check"></i>Diet Plan
-                                </li>
-                                <li class="pricing__item pricing__item-opacity">
-                                    <i class="fa-regular fa-circle-check"></i>1 Week Free Training
-                                </li>
-                            </ul>
-                            <a href="#" class="button button__flex pricing__button">Purchase Now<i class="fa-solid fa-arrow-right"></i></a>
-                        </article>
-                        <article class="pricing__card pricing_-card-active">
-                            <header class="pricing__header">
-                                <div class="pricing__shape">
-                                    <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
-                                </div>
-                                <h1 class="pricing__title">PREMIUM PACKAGE</h1>
-                                <h2 class="pricing__number">$120</h2>
-                            </header>
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>1 Monthly Membership
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>6 Days In A Week
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>Strength Training
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>Diet Plan
-                                </li>
-                                <li class="pricing__item pricing__item-opacity">
-                                    <i class="fa-regular fa-circle-check"></i>1 Week Free Training
-                                </li>
-                            </ul>
-                            <a href="#" class="button button__flex pricing__button">Purchase Now<i class="fa-solid fa-arrow-right"></i></a>
-                        </article>
-                        <article class="pricing__card ">
-                            <header class="pricing__header">
-                                <div class="pricing__shape">
-                                    <img src="assets/img/pricing3.png" alt="pricing image" class="pricing__img">
-                                </div>
-                                <h1 class="pricing__title">DIAMOND PACKAGE</h1>
-                                <h2 class="pricing__number">$120</h2>
-                            </header>
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>1 Monthly Membership
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>6 Days In A Week
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>Strength Training
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="fa-regular fa-circle-check"></i>Diet Plan
-                                </li>
-                                <li class="pricing__item ">
-                                    <i class="fa-regular fa-circle-check"></i>1 Week Free Training
-                                </li>
-                            </ul>
-                            <a href="#" class="button button__flex pricing__button">Purchase Now<i class="fa-solid fa-arrow-right"></i></a>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
-            <section class="contact section">
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class="container">
                 <div class="section__data">
+                    <h2 class="section__subtitle">Our Program</h2>
                     <div class="section__titles">
-                        <h2 class="section__subtitle">Contact Us</h2>
+                        <h1 class="section__title-border">BUILD YOUR</h1>
+                        <h1 class="section__title">BEST BODY</h1>
                     </div>
-                    <p class="contact__description">
-                        🏋️‍♂️ Welcome to <span>NIYAMA</span> The  Gym! 🏋️‍♀️
-                    </p>
                 </div>
-                <div class="contact__container container grid">
-                    <div class="contact__content">
-                        <div class="contact__card">
-                            <div class="content__header">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <ul class="contact__address">
-                                    <h1 class="section__title">Address</h1>
-                                <li class="contact__data">
-                                    <span>Visit us at</span> Sector 8-Jankipuram, <br> Lucknow , 226021
-                                </li>
-                                <li class="contact__data">
-                                    <span>Have questions?</span> Call us at +91 9005433349 ,<br> +91 6307254216
-                                </li>
-                                <li class="contact__data">
-                                    <span>Drop us an email</span> at <p class="email__blue"><u>niyamathegym333@gmail.com</u></p>
-                                </li>
-                            </ul>
-
-                            <ul class="contact__hours">
-                                <h1 class="section__title">Opening Hours</h1>
-                                <li class="contact__data">
-                                    <span>Morning :</span> 5 AM - 11 AM
-                                </li>
-                                <li class="contact__data">
-                                    <span>Evening :</span> 4 PM - 10 PM
-                                </li>
-                            </ul>
+                <div class="program__container grid">
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program1.png" class="program__img" alt="program img">
                         </div>
+                        <h3 class="program__title">Flex Muscle</h3>
+                        <p class="program__description">Creating tension that's temporarily making the muscle
+                            fibers smaller or contracted.</p>
+                        <a href="#pricing" class="program__button">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
 
-                        <div class="contact__map">
-                            <h1 class="section__title">Visit NOW</h1>
-                            <div class="map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9500239511244!2d80.93554157498511!3d26.936798776632816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999573e1526d0d3%3A0xaf830f51df2613f1!2sNIYAMA%20the%20gym!5e0!3m2!1sen!2sin!4v1699774322847!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program2.png" class="program__img" alt="program img">
                         </div>
+                        <h3 class="program__title">Cardio Exercise</h3>
+                        <p class="program__description">Exercise your heart rate up and keeps it
+                            up for a prolonged period of time.</p>
+                        <a href="#pricing" class="program__button">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
 
-                        <div class="contact__images">
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program3.png" class="program__img" alt="program img">
+                        </div>
+                        <h3 class="program__title">Basic Yoga</h3>
+                        <p class="program__description">Diaphragmatic this is the most common breathing
+                            technique you'll find in yoga.</p>
+                        <a href="#pricing" class="program__button">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program4.png" class="program__img" alt="program img">
+                        </div>
+                        <h3 class="program__title">Weight Lifting</h3>
+                        <p class="program__description">Attempts a maximum weight single lift of a
+                            barbell loaded with weight plates.</p>
+                        <a href="#pricing" class="program__button">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="choose__overflow">
+                <div class="choose__container container grid">
+                    <div class="choose__content">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">Best Reason</h2>
                             <div class="section__titles">
-                                <h1 class="section__title trainer_head">
-                                    Our Trainers
+                                <h1 class="section__title-border">
+                                    WHY
                                 </h1>
-                            </div>
-                            <div class="contact__image">
-                                <div class="big__bro">
-                                    <img src="assets/img/contact2.jpg" alt="contact__image_-2" class="contact__img">
-                                <h3>Ashutosh Pandey</h3>
-                                </div>
-                                <div class="small__bro">
-                                    <img src="assets/img/contact1.jpg" alt="contact__image_-1" class="contact__img">
-                                <h3>Aditya Pandey</h3>
-                                </div>
-                                
+                                <h1 class="section__title">CHOOSE US ?</h1>
                             </div>
                         </div>
-                    </div>
-                    <p class="contact__description">
-                        <span>Ready to transform? </span>We're here for you every step of the way!
-                    </p>
-                </div>
-            </section>
 
-            <!--==================== CALCULATE ====================-->
-            <section class="calculate section">
-                <div class="calculate__container container grid">
-                    <div class="calculate__content">
-                        <div class="section__titles">
-                            <h1 class="section__title-border">CALCULATE</h1>
-                            <h1 class="section__title">YOUR BMI</h1>
-                        </div>
-
-                        <p class="calculate__description">
-                            The body mass index (BMI) calculator calculates 
-body mass index from your weight and height.
+                        <p class="choose__description">
+                            Choose your favorite class and start now. Remember the
+                            only bad workout is the one you didn't do.
                         </p>
-
-                        <form action="" class="calculate__form" id="calculate-form">
-                            <div class="calculate__box">
-                                <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm">
-                                <label for="" class="calculate__label">cm</label>
+                        <div class="choose__data">
+                            <div class="choose__group">
+                                <h3 class="choose__number">200+</h3>
+                                <p class="choose__subtitle">Total Members</p>
                             </div>
-                            <div class="calculate__box">
-                                <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg">
-                                <label for="" class="calculate__label">kg</label>
+                            <div class="choose__group">
+                                <h3 class="choose__number">5+</h3>
+                                <p class="choose__subtitle">Best trainers</p>
                             </div>
-                            <button class="button button__flex" type="submit">
-                                Calculate Now<i class="fa-solid fa-arrow-right"></i>
-                            </button>
-                        </form>
-                        <p class="calculate__message" id="calculate-message"></p>
+                        </div>
                     </div>
-                    <img src="assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
-                </div>
-            </section>
-        </main>
+                    <div class="choose__images">
+                        <img src="assets/img/home-img.png" alt="choose__img" class="choose__img">
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section" id="footer">
-            <div class="footer__container container grid">
-                <div>
-                    <a href="#" class="footer__logo">
-                        <img src="assets/img/logo.png" alt="footer image">Niyama-The Gym
-                    </a>
+                        <div class="choose__triangle choose__triangle-1"></div>
+                        <div class="choose__triangle choose__triangle-2"></div>
+                        <div class="choose__triangle choose__triangle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Pricing</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">OUR</h1>
+                        <h1 class="section__title">SPECIAL PLAN</h1>
+                    </div>
+                </div>
+                <div class="pricing__container grid">
+                    <article class="pricing__card">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="assets/img/pricing1.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">BASIC PACKAGES</h1>
+                        </header>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;1000<span> (1-month)</span></h2>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength Training Only
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Free Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;2500 <span>(3-month)</span></h2>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength Training Only
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Free Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;4500<span> (6-month)</span></h2>
+
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength Training Only
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Free Training
+                            </li>
+                        </ul>
+                        <a href="#contact" class="button button__flex pricing__button">Contact Now<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="pricing__card pricing_-card-active">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">PREMIUM PACKAGE</h1>
+                        </header>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;1200<span> (1-month)</span></h2>
+
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item pricing__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Personal Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;3000<span> (3-month)</span></h2>
+
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Personal Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;5700<span> (6-month)</span></h2>
+
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>1 Week Personal Training
+                            </li>
+                        </ul>
+                        <a href="#contact" class="button button__flex pricing__button">Contact Now<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="pricing__card ">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="assets/img/pricing3.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">DIAMOND PACKAGE</h1>
+
+                        </header>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;1500<span> (1-month)</span></h2>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Zumba/Aerobic
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>15 Days Personal Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;4000<span> (3-month)</span></h2>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Zumba/Aerobic
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>15 Days Personal Training
+                            </li>
+                        </ul>
+                        <ul class="pricing__list">
+                            <h2 class="pricing__number">&#8377;7500<span> (6-month)</span></h2>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Strength + Cardio
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Zumba/Aerobic
+                            </li>
+                            <li class="pricing__item">
+                                <i class="fa-regular fa-circle-check"></i>Diet Plan
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="fa-regular fa-circle-check"></i>15 Days Personal Training
+                            </li>
+                        </ul>
+                        <a href="#contact" class="button button__flex pricing__button">Contact Now<i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION  -->
+
+
+        <section class="contact section" id="contact">
+            <div class="section__data">
+                <div class="section__titles">
+                    <h2 class="section__subtitle">Contact Us</h2>
+                </div>
+                <p class="contact__description">
+                    🏋️‍♂️ Welcome to <span>NIYAMA</span> The Gym! 🏋️‍♀️
+                </p>
+            </div>
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__card">
+                        <div class="content__header">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <ul class="contact__address">
+                            <h1 class="section__title">Address</h1>
+                            <li class="contact__data">
+                                <span>Visit us at</span> Sector 8-Jankipuram, <br> Lucknow , 226021
+                            </li>
+                            <li class="contact__data">
+                                <span>Have questions?</span> Call us at +91 9005433349 ,<br> +91 6307254216
+                            </li>
+                            <li class="contact__data">
+                                <span>Drop us an email</span> at <p class="email__blue"><u>niyamathegym333@gmail.com</u>
+                                </p>
+                            </li>
+                        </ul>
+
+                        <ul class="contact__hours">
+                            <h1 class="section__title">Opening Hours</h1>
+                            <li class="contact__data">
+                                <span>Morning :</span> 5 AM - 11 AM
+                            </li>
+                            <li class="contact__data">
+                                <span>Evening :</span> 4 PM - 10 PM
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact__map">
+                        <h1 class="section__title">Visit NOW</h1>
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9500239511244!2d80.93554157498511!3d26.936798776632816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999573e1526d0d3%3A0xaf830f51df2613f1!2sNIYAMA%20the%20gym!5e0!3m2!1sen!2sin!4v1699774322847!5m2!1sen!2sin"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__images">
+                    <div class="section__titles">
+                        <h1 class="section__title trainer_head">
+                            Our Trainers
+                        </h1>
+                    </div>
+                    <div class="contact__image">
+                        <div class="big__bro">
+                            <img src="assets/img/contact2.jpg" alt="contact__image_-2" class="contact__img">
+                        <h3>Ashutosh Pandey</h3>
+                        </div>
+                        <div class="small__bro">
+                            <img src="assets/img/contact1.jpg" alt="contact__image_-1" class="contact__img">
+                        <h3>Aditya Pandey</h3>
+                        </div>
+                        
+                    </div>
+            </div>
+            <p class="contact__description">
+                <span>Ready to transform? </span>We're here for you every step of the way!
+            </p>
+            </div>
+        </section>
+
+        <!--==================== CALCULATE ====================-->
+        <section class="calculate section">
+            <div class="calculate__container container grid">
+                <div class="calculate__content">
+                    <div class="section__titles">
+                        <h1 class="section__title-border">CALCULATE</h1>
+                        <h1 class="section__title">YOUR BMI</h1>
+                    </div>
+
+                    <p class="calculate__description">
+                        The body mass index (BMI) calculator calculates
+                        body mass index from your weight and height.
+                    </p>
+
+                    <form action="" class="calculate__form" id="calculate-form">
+                        <div class="calculate__box">
+                            <input type="number" placeholder="Height" class="calculate__input" id="calculate-cm">
+                            <label for="" class="calculate__label">cm</label>
+                        </div>
+                        <div class="calculate__box">
+                            <input type="number" placeholder="Weight" class="calculate__input" id="calculate-kg">
+                            <label for="" class="calculate__label">kg</label>
+                        </div>
+                        <button class="button button__flex" type="submit">
+                            Calculate Now<i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                    <p class="calculate__message" id="calculate-message"></p>
+                </div>
+                <img src="assets/img/calculate-img.png" alt="calculate image" class="calculate__img">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="footer image">Niyama-The Gym
+                </a>
 
                 <div class="footer__content">
                     <div>
@@ -395,18 +473,18 @@ body mass index from your weight and height.
                         </h3>
 
                         <ul class="footer__links">
-                            <li><a href="#" class="footer__link">
-                                Flex Muscle
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Cardio Exercise
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Basic Yoga
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Weight Lifting
-                            </a></li>
+                            <li><a href="#program" class="footer__link">
+                                    Flex Muscle
+                                </a></li>
+                            <li><a href="#program" class="footer__link">
+                                    Cardio Exercise
+                                </a></li>
+                            <li><a href="#program" class="footer__link">
+                                    Basic Yoga
+                                </a></li>
+                            <li><a href="#program" class="footer__link">
+                                    Weight Lifting
+                                </a></li>
                         </ul>
                     </div>
 
@@ -416,15 +494,15 @@ body mass index from your weight and height.
                         </h3>
 
                         <ul class="footer__links">
-                            <li><a href="#" class="footer__link">
-                                Basic
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Premium
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Diamond
-                            </a></li>
+                            <li><a href="#pricing" class="footer__link">
+                                    Basic
+                                </a></li>
+                            <li><a href="#pricing" class="footer__link">
+                                    Premium
+                                </a></li>
+                            <li><a href="#pricing" class="footer__link">
+                                    Diamond
+                                </a></li>
                         </ul>
                     </div>
 
@@ -434,18 +512,18 @@ body mass index from your weight and height.
                         </h3>
 
                         <ul class="footer__links">
-                            <li><a href="#" class="footer__link">
-                                About Us
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Customers
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Careers
-                            </a></li>
-                            <li><a href="#" class="footer__link">
-                                Partners
-                            </a></li>
+                            <li><a href="#contact" class="footer__link">
+                                    Contact Us
+                                </a></li>
+                            <li><a href="#contact" class="footer__link">
+                                    Customers
+                                </a></li>
+                            <li><a href="#contact" class="footer__link">
+                                    Careers
+                                </a></li>
+                            <li><a href="#contact" class="footer__link">
+                                    Partners
+                                </a></li>
                         </ul>
                     </div>
                 </div>
@@ -454,13 +532,13 @@ body mass index from your weight and height.
             <div class="container social__icon">
                 <div class="footer__group">
                     <ul class="footer__social">
-                        <a href="#" target="_blank" class="footer__social-link">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        <a href="#" target="_blank" class="footer__social-link">
+                        <a href="https://www.instagram.com/niyamathegym333/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="footer__social-link">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a href="#" target="_blank" class="footer__social-link">
+                        <a href="https://maps.app.goo.gl/tS72eYfHR8zsvaHq6" target="_blank" class="footer__social-link">
                             <i class="fa-solid fa-location-dot"></i>
                         </a>
                     </ul>
@@ -470,19 +548,20 @@ body mass index from your weight and height.
                     </span>
                 </div>
             </div>
-        </footer>
+    </footer>
 
-        <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="fa-solid fa-arrow-up"></i>
-        </a>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-        <script src="https://kit.fontawesome.com/066eb9a56c.js" crossorigin="anonymous"></script>
-        </script>
-    </body>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/066eb9a56c.js" crossorigin="anonymous"></script>
+    </script>
+</body>
+
 </html>
